@@ -15,22 +15,22 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProductController {
 
     @PostMapping
-    public String createMapping() {
-        return "HTTP POST created";
+    public String createProduct() {
+        return "HTTP POST Handled";
     }    
 
     @GetMapping
-    public String getMapping() {
-        return "HTTP GET request";
+    public String getProduct() {
+        return "HTTP GET Handled";
     }
 
     @PutMapping
-    public String updateMapping() {
-        return "HTTP PUT request";
+    public String updateProduct() {
+        return "HTTP PUT Handled";
     }
 
     @DeleteMapping
-    public String deleteMapping() {
-        return "HTTP DELETE requested";
+    public String deleteProduct() {
+        return "HTTP DELETE Handled";
     }
 }
